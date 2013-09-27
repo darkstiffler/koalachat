@@ -14,5 +14,9 @@ class MessagesController < ApplicationController
   def message_params
   	params.require(:message).permit(:body, :from)
   end
+
+  def home
+  	redirect_to messages_index_path
+  end
   
 end
