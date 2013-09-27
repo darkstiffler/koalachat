@@ -7,7 +7,7 @@
 	<% @messages.each do |message| %>
 	<%= message.body %><br>
 	From: <%= message.from %><br><br>
-	Created: <%= time_ago_in_words(message.created_at)%> ago.<br>
+	Created: <%= time_ago_in_words(message.created_at) %> ago.<br>
 	-------------------------------------------<br>
 	<% end %>
 </div>

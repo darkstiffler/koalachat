@@ -6,19 +6,20 @@
 	border-radius: 15px;
 	padding: 10px;
 	font-weight: bolder;
+	margin: 0 auto;
 	border: 2px solid yellow;
 	font-size: 16px;
 	color:black;
 
 }
 #chat_text_box {
-	margin-top: 20px;
 	background-color: rgba(0,0,255, 0.6);
 	border-radius: 8px;
 	color: black;
 	padding: 3px;
 	border: 2px solid yellow;
-	margin-bottom: 30px;
+	width: 500px;
+	margin: 10px auto;
 }
 #title {
 	background-color: rgba(0,0,255, 0.6);

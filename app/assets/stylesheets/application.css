@@ -12,7 +12,9 @@
  *= require_tree .
  */
 
-
+html {
+	background-color: black;
+}
 #content {
 	width: 100%;
 	height:100%;
