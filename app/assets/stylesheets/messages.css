@@ -2,13 +2,29 @@
 	height: 400px;
 	width: 400px;
 	overflow: scroll;
-	background-color: white;
+	background-color: rgba(0,0,255, 0.6);
 	border-radius: 15px;
 	padding: 10px;
-	border: 2px solid blue;
+	font-weight: bolder;
+	border: 2px solid yellow;
+	font-size: 16px;
+	color:black;
 
 }
 #chat_text_box {
 	margin-top: 20px;
+	background-color: rgba(0,0,255, 0.6);
+	border-radius: 8px;
+	color: black;
+	padding: 3px;
+	border: 2px solid yellow;
 	margin-bottom: 30px;
+}
+#title {
+	background-color: rgba(0,0,255, 0.6);
+	border-radius: 10px;
+	color: black;
+	padding: 10px;
+	border: 2px solid yellow;
+	margin: 5px;
 }
