@@ -1,6 +1,9 @@
 Koalachat::Application.routes.draw do
-  get "messages/index"
+
+  root to: "messages#index"
+
   get "messages/new"
+  post "messages/index" => "messages#create"
   get "messages/create"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
