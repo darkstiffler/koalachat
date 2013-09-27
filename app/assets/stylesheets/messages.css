@@ -2,30 +2,30 @@
 	height: 400px;
 	width: 400px;
 	overflow: scroll;
-	background-color: rgba(0,0,255, 0.6);
+	background-color: rgba(0,0,255, 0.4);
 	border-radius: 15px;
 	padding: 10px;
 	font-weight: bolder;
 	margin: 0 auto;
-	border: 2px solid yellow;
+	border: 2px solid blue;
 	font-size: 16px;
 	color:black;
 
 }
 #chat_text_box {
-	background-color: rgba(0,0,255, 0.6);
+	background-color: rgba(0,0,255, 0.4);
 	border-radius: 8px;
 	color: black;
 	padding: 3px;
-	border: 2px solid yellow;
+	border: 2px solid blue;
 	width: 500px;
 	margin: 10px auto;
 }
 #title {
-	background-color: rgba(0,0,255, 0.6);
+	background-color: rgba(0,0,255, 0.4);
 	border-radius: 10px;
 	color: black;
 	padding: 10px;
-	border: 2px solid yellow;
+	border: 2px solid blue;
 	margin: 5px;
 }
