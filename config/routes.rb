@@ -1,6 +1,6 @@
 Koalachat::Application.routes.draw do
 
-  root to: "messages#index"
+  get "messages/index" => "messages#index"
 
   get "messages/new"
   post "messages/index" => "messages#create"

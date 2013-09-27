@@ -9,9 +9,6 @@ class MessagesController < ApplicationController
   end
 
   def new
-  	@message = Message.new message_params
-  	@message.save!
-  	redirect_to messages_index_path
   end
 
   def message_params

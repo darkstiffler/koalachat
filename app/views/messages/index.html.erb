@@ -4,7 +4,20 @@
 <p>Please remember this is still currently under development</p>
 
 <div id="chat_window">
+	<% @messages.each do |message| %>
+	<%= message.body %><br>
+	From: <%= message.from %><br>
+	Created: <%= time_ago_in_words(message.created_at)%> ago.<br>
+	--------------------------------------------------------------<br>
+	<% end %>
 </div>
 
-<div id="chat_box">
+<div id="chat_text_box">
+	<%= form_for :message do |f| %>
+	<%= f.label :body %>
+	<%= f.text_field :body %>
+	<%= f.label :from, "From" %>
+	<%= f.text_field :from, placeholder:'your name...' %>
+	<%= f.submit "Chat it!" %>
+	<% end %>
 </div>

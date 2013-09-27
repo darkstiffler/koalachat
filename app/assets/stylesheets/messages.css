@@ -1,0 +1,13 @@
+#chat_window {
+	height: 400px;
+	width: 400px;
+	overflow: scroll;
+	border-radius: 15px;
+	padding: 10px;
+	border: 2px solid blue;
+
+}
+#chat_text_box {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
