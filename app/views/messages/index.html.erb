@@ -8,7 +8,7 @@
 	<%= message.body %><br>
 	From: <%= message.from %><br><br>
 	Created: <%= time_ago_in_words(message.created_at) %> ago.<br>
-	-------------------------------------------<br>
+	_______________________________<br>
 	<% end %>
 </div>
 
@@ -19,5 +19,6 @@
 	<%= f.label :from, "From" %>
 	<%= f.text_field :from, placeholder:'your name...' %>
 	<%= f.submit "Post", class: 'btn btn-sm btn-primary' %>
+	<%= link_to "Refresh", root_path, class:'btn btn-sm btn-primary' %>
 	<% end %>
 </div>

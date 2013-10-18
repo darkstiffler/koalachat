@@ -1,6 +1,6 @@
 #chat_window {
 	height: 400px;
-	width: 400px;
+	width: 75%;
 	overflow: scroll;
 	background-color: rgba(0,0,255, 0.4);
 	border-radius: 15px;
@@ -18,14 +18,15 @@
 	color: black;
 	padding: 3px;
 	border: 2px solid blue;
-	width: 500px;
+	width: 70%;
 	margin: 10px auto;
 }
 #title {
 	background-color: rgba(0,0,255, 0.4);
 	border-radius: 10px;
 	color: black;
+	width: 80%;
 	padding: 10px;
 	border: 2px solid blue;
-	margin: 5px;
+	margin: 5px auto;
 }
